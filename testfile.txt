@@ -1,0 +1,24 @@
+P|Carl Gustaf|Bernadotte
+T|0768-101801|08-101801
+A|Drottningholms slott|Stockholm|10001
+F|Victoria|1977
+A|Haga Slott|Stockholm|10002
+F|Carl Philip|1979
+T|0768-101802|08-101802
+P|Barack|Obama
+A|1600 Pennsylvania Avenue|Washington, D.C
+P|John|Doe
+T|123-456-7890|987-654-3210
+A|123 Main St|Springfield|12345
+F|Jane Smith|1980
+P|Alice|Johnson
+T|555-123-4567|777-987-6543
+A|456 Elm St|Hometown|54321
+F|Bob Johnson|1975
+A|456 Elm St|Hometown|54321
+P|Emily|Brown
+T|888-333-4444|222-555-7777
+A|789 Oak St|Metropolis|67890
+F|David Green|1990
+A|789 Oak St|Metropolis|67890
+T|111-111-1111|222-555-7777
