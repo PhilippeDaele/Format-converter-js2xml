@@ -7,7 +7,6 @@ let peopleSomething = [];
 
 try{
     peopleSomething = readFromFile(filepath);
-    //console.dir(peopleSomething, {depth: null}); // displaying the result in console, remove later
 
     // builds the xml-file
     const builder = new xml2js.Builder({ strict:true });
@@ -89,7 +88,7 @@ function readFromFile(filepath){
     
                     currentPerson.person.family.push(familyMember);
     
-                    // Move the main loop counter to the last processed family member
+                    // Move back to the main loop counter to the last processed family member
                     i = j - 1;
                     break;
     
@@ -103,7 +102,7 @@ function readFromFile(filepath){
             people.push(currentPerson);
         }
     
-        return people; // Add this line to return the parsed data
+        return people; // return the parsed data
 
     }catch(error){
         //console.log('An error occured while parsing the data, check input format.\nError:');
